@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>TabTitle</title>
+<meta name="viewport" content="width=device,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style> 
+</style>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<body>
+<!--Nav bar, placed on top of the body. relative to its location.-->
+<div class="w3-top w3-bar w3-black">
+<a href="#home" class="w3-bar-item w3-button">Home</a>  
+<a href="#about" class="w3-bar-item w3-button">About</a>
+<a href="#members" class="w3-bar-item w3-button">Members</a> 
+<a href="#contact" class="w3-bar-item w3-button">Contact</a>  
+</div>
+
+<!--We put the home page content in here.-->
+<div id="home" class="w3-content">
+
+
+<img class="slides" src="images/placeholder.jpg" alt="placeholder, jpg of tree" style="width:100%">
+<img class="slides" src="images/placeholder2.jpg" alt="placeholder, jpg of tree" style="width:100%">
+<img class="slides" src="images/placeholder3.jpg" alt="placeholder, jpg of tree" style="width:100%">
+<script>
+w3.slideshow(".slides", 1500);
+</script>
+
+<!--About-->
+<div id="about" class="w3-container w3-padding-32">
+<h1 class="w3-center">About me</h1>
+<p>This is the most successful attempt at building a website, thus far. I am looking forward
+  to finding more guides, and learning sources to cement my ability in web development.</p>
+</div>
+
+<!--members-->
+<div id="members" class="w3-container w3-padding-32">
+<div class="w3-row w3-center">
+
+
+<div class="w3-third">
+  <img src="images/me.jpg" alt="Me" style="width:60%">
+</div>  
+  
+
+<div class="w3-third">
+  <img src="images/me.jpg" alt="Me" style="width:60%">
+</div>
+
+
+<div class="w3-third">
+  <img src="images/me.jpg" alt="Me" style="width:60%">
+</div>
+</div>
+
+
+</div>
+
+<!--contact-->
+<div id="contact" class="w3-container w3-center w3-padding-32">
+<h2 class="w3-wide">CONTACT</h2>
+Washinton, US<br>
+Phone: 360-421-****<br>
+Email: garciamicheal0@outlook.com<br>
+<p class="w3-opacity w3-center"><i>Hiring? Let me know!</i></p>
+
+<form action="/action_page.php" target="_blank">
+<input class="w3-input" type="text" placeholder="Name" required name="Name">
+<input class="w3-input" type="text" placeholder="Email" required name="Email">
+<input class="w3-input" type="text" placeholder="Message" required name="Message">
+<br>
+<button class="w3-button w3-black" type="submit">SEND</button>
+</form>
+
+<img src="images/me.jpg" class="w3-image" style="width:100%">
+</div>
+
+</div>
+
+
+</body>
+</html>
